@@ -1,10 +1,10 @@
-# 🛡️ Endpoint Security 2026 — Complete Series
+# Endpoint Security 2026 — Complete Series
 
 A comprehensive 6-part series covering modern endpoint security in 2026, from fundamentals to advanced incident response.
 
 > **45,000+ learners** | Based on 80+ verified sources | Updated June 2026
 
-## 📚 Series Contents
+## Series Contents
 
 | # | Part | Topics |
 |---|------|--------|
@@ -14,9 +14,9 @@ A comprehensive 6-part series covering modern endpoint security in 2026, from fu
 | 4 | [EDR/XDR](part4-edr-xdr-detection-response-2026.md) | CrowdStrike vs SentinelOne vs Defender, MITRE ATT&CK, threat hunting |
 | 5 | [Policy & Compliance](part5-policy-compliance-nist-2026.md) | NIST CSF 2.0, 800-53, CIS Benchmarks, patch management |
 | 6 | [Incident Response](part6-incident-response-best-practices-2026.md) | IR playbooks, AI SOC automation, best practices, certifications |
-| 📊 | [References](references-statistics-2026.md) | All statistics & 70+ source URLs |
+| Ref | [References](references-statistics-2026.md) | All statistics & 70+ source URLs |
 
-## 🔑 Key Statistics
+## Key Statistics
 
 - **$4.44M** — Average global breach cost (IBM 2026)
 - **29 minutes** — Average eCrime breakout time (CrowdStrike)
@@ -26,7 +26,7 @@ A comprehensive 6-part series covering modern endpoint security in 2026, from fu
 - **71%** — SOC analysts reporting burnout
 - **44%** — Data breaches involving ransomware
 
-## 🎯 Who Is This For?
+## Who Is This For?
 
 - Security engineers & architects
 - SOC analysts (Tier 1-3)
@@ -34,17 +34,17 @@ A comprehensive 6-part series covering modern endpoint security in 2026, from fu
 - Cloud security professionals
 - Anyone preparing for security certifications
 
-## 🏗️ Tech Stack Covered
+## Tech Stack Covered
 
 `EDR/XDR` `Zero Trust` `NIST CSF 2.0` `MITRE ATT&CK` `CIS Benchmarks` `SOAR` `AI SOC` `IAM` `Patch Management`
 
-## 📖 Related Work
+## Related Work
 
 - [Zero Trust on Cloudflare One Series](https://cloudsecop.net)
 - [AWS First Cloud Journey](https://cloudjourney.awsstudygroup.com)
 - [AWS Security Patterns](https://github.com/vanhoangkha/aws-security-patterns)
 
-## 📝 Author
+## Author
 
 **Van Hoang Kha** — Cloud Security Engineer | AWS Community Builder | Zero Trust Practitioner
 
@@ -52,6 +52,6 @@ A comprehensive 6-part series covering modern endpoint security in 2026, from fu
 [![Blog](https://img.shields.io/badge/Blog-cloudsecop.net-FF9900?style=flat-square)](https://cloudsecop.net)
 [![Twitter](https://img.shields.io/badge/X-@WorkKhavan-000000?style=flat-square&logo=x)](https://twitter.com/WorkKhavan)
 
-## 📄 License
+## License
 
 This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
