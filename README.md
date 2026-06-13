@@ -2,7 +2,22 @@
 
 A comprehensive 6-part series covering modern endpoint security in 2026, from fundamentals to advanced incident response.
 
-> **45,000+ learners** | Based on 80+ verified sources | Updated June 2026
+> Based on 80+ verified sources | Updated June 2026
+
+---
+
+## Table of Contents
+
+- [Series Contents](#series-contents)
+- [Key Statistics](#key-statistics)
+- [Who Is This For](#who-is-this-for)
+- [Topics Covered](#topics-covered)
+- [Related Work](#related-work)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
+
+---
 
 ## Series Contents
 
@@ -14,43 +29,69 @@ A comprehensive 6-part series covering modern endpoint security in 2026, from fu
 | 4 | [EDR/XDR](part4-edr-xdr-detection-response-2026.md) | CrowdStrike vs SentinelOne vs Defender, MITRE ATT&CK, threat hunting |
 | 5 | [Policy & Compliance](part5-policy-compliance-nist-2026.md) | NIST CSF 2.0, 800-53, CIS Benchmarks, patch management |
 | 6 | [Incident Response](part6-incident-response-best-practices-2026.md) | IR playbooks, AI SOC automation, best practices, certifications |
-| Ref | [References](references-statistics-2026.md) | All statistics & 70+ source URLs |
+| Ref | [References](references-statistics-2026.md) | All statistics and 70+ source URLs |
+
+---
 
 ## Key Statistics
 
-- **$4.44M** — Average global breach cost (IBM 2026)
-- **29 minutes** — Average eCrime breakout time (CrowdStrike)
-- **89%** — AI-enabled attacks increase YoY
-- **92%** — Total disclosed vulnerabilities increase YoY
-- **~10 hours** — Time from CVE disclosure to active exploitation (was 56 days in 2024)
-- **71%** — SOC analysts reporting burnout
-- **44%** — Data breaches involving ransomware
+| Metric | Value | Source |
+|--------|-------|--------|
+| Average global breach cost | $4.44M | IBM 2026 |
+| Average eCrime breakout time | 29 minutes | CrowdStrike |
+| AI-enabled attacks increase | +89% YoY | CrowdStrike |
+| Total disclosed vulnerabilities increase | +92% YoY | Action1 |
+| Time from CVE disclosure to exploitation | ~10 hours | Cyber Unit (was 56 days in 2024) |
+| SOC analysts reporting burnout | 71% | Vectra AI |
+| Data breaches involving ransomware | 44% | Verizon DBIR |
+| Global ransomware damage | $74B | Cybersecurity Ventures |
+| Endpoint security market size | $17-23B | Multiple analysts |
 
-## Who Is This For?
+---
 
-- Security engineers & architects
+## Who Is This For
+
+- Security engineers and architects
 - SOC analysts (Tier 1-3)
-- IT managers & CISOs
+- IT managers and CISOs
 - Cloud security professionals
-- Anyone preparing for security certifications
+- Anyone preparing for security certifications (CSA, SEC450, SC-200)
 
-## Tech Stack Covered
+---
 
-`EDR/XDR` `Zero Trust` `NIST CSF 2.0` `MITRE ATT&CK` `CIS Benchmarks` `SOAR` `AI SOC` `IAM` `Patch Management`
+## Topics Covered
+
+`EDR/XDR` `Zero Trust` `NIST CSF 2.0` `NIST 800-53` `MITRE ATT&CK` `CIS Benchmarks` `SOAR` `AI SOC` `IAM` `Patch Management` `LOTL` `Ransomware` `Incident Response` `Threat Hunting`
+
+---
 
 ## Related Work
 
-- [Zero Trust on Cloudflare One Series](https://cloudsecop.net)
-- [AWS First Cloud Journey](https://cloudjourney.awsstudygroup.com)
-- [AWS Security Patterns](https://github.com/vanhoangkha/aws-security-patterns)
+| Project | Description |
+|---------|-------------|
+| [Zero Trust on Cloudflare One](https://cloudsecop.net) | Multi-part series on DLP, CASB, Email Security, Device Posture |
+| [AWS First Cloud Journey](https://cloudjourney.awsstudygroup.com) | Complete AWS learning path (45,000+ learners) |
+| [AWS Security Patterns](https://github.com/vanhoangkha/aws-security-patterns) | Production-ready AWS security architectures in Terraform |
+| [AWS IAM Access Key Auto-Rotation](https://github.com/vanhoangkha/aws-iam-access-key-auto-rotation) | Automated key rotation with Lambda and SNS |
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, suggesting additions, and submitting pull requests.
+
+---
 
 ## Author
 
 **Van Hoang Kha** — Cloud Security Engineer | AWS Community Builder | Zero Trust Practitioner
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vanhoangkha-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/vanhoangkha/)
-[![Blog](https://img.shields.io/badge/Blog-cloudsecop.net-FF9900?style=flat-square)](https://cloudsecop.net)
-[![Twitter](https://img.shields.io/badge/X-@WorkKhavan-000000?style=flat-square&logo=x)](https://twitter.com/WorkKhavan)
+- Blog: [cloudsecop.net](https://cloudsecop.net)
+- LinkedIn: [linkedin.com/in/vanhoangkha](https://www.linkedin.com/in/vanhoangkha/)
+- X: [@WorkKhavan](https://twitter.com/WorkKhavan)
+- AWS Learning Hub: [cloudjourney.awsstudygroup.com](https://cloudjourney.awsstudygroup.com)
+
+---
 
 ## License
 
