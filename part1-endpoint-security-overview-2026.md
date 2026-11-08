@@ -212,10 +212,10 @@ Timeline:
 
 Endpoint Security 2026 là một **hệ thống vận hành**, không phải một sản phẩm đơn lẻ:
 
-✅ Enforce identity controls  
-✅ Deploy EDR-grade telemetry  
-✅ Giữ patching có kỷ luật  
-✅ Chạy incident response path xác định khi có high-risk alerts  
+Enforce identity controls
+Deploy EDR-grade telemetry
+Giữ patching có kỷ luật
+Chạy incident response path xác định khi có high-risk alerts
 
 ---
 

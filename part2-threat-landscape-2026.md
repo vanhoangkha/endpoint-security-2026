@@ -240,13 +240,13 @@ Trong 2026, **identity là attack vector #1**:
 
 | Threat | Severity | Detection Difficulty | Frequency |
 |--------|----------|---------------------|-----------|
-| LOTL Attacks | 🔴 Critical | 🔴 Very Hard | ⬆️ Rising |
-| AI-Powered Phishing | 🔴 Critical | 🟡 Moderate | ⬆️ Rising fast |
-| Ransomware + EDR Kill | 🔴 Critical | 🟡 Moderate | ⬆️ Rising |
-| Supply Chain | 🟠 High | 🔴 Very Hard | ⬆️ Rising |
-| Identity Attacks | 🔴 Critical | 🟡 Moderate | ⬆️ Rising |
-| Agentic AI Attacks | 🟠 High | 🔴 Very Hard | 🆕 Emerging |
-| Shadow AI Data Leak | 🟡 Medium | 🟡 Moderate | ⬆️ Rising |
+| LOTL Attacks | Critical | Very Hard | Rising |
+| AI-Powered Phishing | Critical | Moderate | Rising fast |
+| Ransomware + EDR Kill | Critical | Moderate | Rising |
+| Supply Chain | High | Very Hard | Rising |
+| Identity Attacks | Critical | Moderate | Rising |
+| Agentic AI Attacks | High | Very Hard | Emerging |
+| Shadow AI Data Leak | Medium | Moderate | Rising |
 
 ---
 
