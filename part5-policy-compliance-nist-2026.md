@@ -193,34 +193,34 @@ SI-7:  Software, Firmware, and Information Integrity
 
 ```
 ALL managed endpoints MUST:
-☐ Run approved OS version (within N-1 patch level)
-☐ Have EDR agent installed, active, and reporting
-☐ Enable disk encryption (BitLocker/FileVault)
-☐ Have host-based firewall enabled
-☐ Auto-lock after 5 minutes of inactivity
-☐ Use approved DNS (block known malicious domains)
-☐ Have latest critical patches within 72 hours
-☐ Register with UEM/MDM system
+Run approved OS version (within N-1 patch level)
+Have EDR agent installed, active, and reporting
+Enable disk encryption (BitLocker/FileVault)
+Have host-based firewall enabled
+Auto-lock after 5 minutes of inactivity
+Use approved DNS (block known malicious domains)
+Have latest critical patches within 72 hours
+Register with UEM/MDM system
 
 PROHIBITED on managed endpoints:
-☒ Disable or tamper with security agents
-☒ Install unauthorized software
-☒ Store unencrypted sensitive data
-☒ Connect to unsecured public Wi-Fi without VPN
-☒ Share credentials or bypass MFA
-☒ Use personal cloud storage for work data
+Disable or tamper with security agents
+Install unauthorized software
+Store unencrypted sensitive data
+Connect to unsecured public Wi-Fi without VPN
+Share credentials or bypass MFA
+Use personal cloud storage for work data
 ```
 
 #### BYOD Policy
 
 ```
 Personal devices accessing corporate resources MUST:
-☐ Enroll in MDM (work profile only)
-☐ Meet minimum OS version requirements
-☐ Enable screen lock with biometric or PIN (6+)
-☐ Allow remote wipe of corporate data (not personal)
-☐ Use corporate VPN for all work traffic
-☐ Accept monitoring of work-related activities only
+Enroll in MDM (work profile only)
+Meet minimum OS version requirements
+Enable screen lock with biometric or PIN (6+)
+Allow remote wipe of corporate data (not personal)
+Use corporate VPN for all work traffic
+Accept monitoring of work-related activities only
 
 Access limitations for BYOD:
 - View-only access to sensitive data
@@ -410,34 +410,34 @@ CIS cung cấp detailed hardening guides cho:
 
 ```
 OS Configuration:
-☐ Enable BitLocker with TPM
-☐ Configure Windows Firewall (deny inbound by default)
-☐ Disable SMBv1
-☐ Enable Credential Guard
-☐ Enable LSASS protection (RunAsPPL)
-☐ Disable unnecessary services (Remote Registry, etc.)
-☐ Configure AppLocker/WDAC policies
-☐ Enable Secure Boot + UEFI
+Enable BitLocker with TPM
+Configure Windows Firewall (deny inbound by default)
+Disable SMBv1
+Enable Credential Guard
+Enable LSASS protection (RunAsPPL)
+Disable unnecessary services (Remote Registry, etc.)
+Configure AppLocker/WDAC policies
+Enable Secure Boot + UEFI
 
 Authentication:
-☐ Enforce password complexity (14+ characters)
-☐ Account lockout after 5 failed attempts
-☐ MFA required for all users
-☐ Block NTLM where possible
-☐ Disable storing LAN Manager hash
+Enforce password complexity (14+ characters)
+Account lockout after 5 failed attempts
+MFA required for all users
+Block NTLM where possible
+Disable storing LAN Manager hash
 
 Logging & Monitoring:
-☐ Enable PowerShell Script Block Logging
-☐ Enable Process Creation auditing (Event 4688)
-☐ Enable command-line in process creation events
-☐ Configure Windows Event Forwarding (WEF)
-☐ Enable Sysmon for detailed telemetry
+Enable PowerShell Script Block Logging
+Enable Process Creation auditing (Event 4688)
+Enable command-line in process creation events
+Configure Windows Event Forwarding (WEF)
+Enable Sysmon for detailed telemetry
 
 Network:
-☐ Disable LLMNR and NetBIOS
-☐ Configure DNS-over-HTTPS
-☐ Block outbound to known-bad IPs (threat intel)
-☐ Restrict RDP access (only via jump server)
+Disable LLMNR and NetBIOS
+Configure DNS-over-HTTPS
+Block outbound to known-bad IPs (threat intel)
+Restrict RDP access (only via jump server)
 ```
 
 ---

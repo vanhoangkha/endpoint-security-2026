@@ -154,41 +154,41 @@ Device Trust Score = f(
 ### Phase 1: Foundation (Months 1-3)
 
 ```
-☐ Asset inventory — identify ALL endpoints
-☐ Identity consolidation — single IdP, enforce MFA
-☐ Deploy EDR trên 100% managed devices
-☐ Enable device compliance policies
-☐ Baseline network traffic patterns
+Asset inventory — identify ALL endpoints
+Identity consolidation — single IdP, enforce MFA
+Deploy EDR trên 100% managed devices
+Enable device compliance policies
+Baseline network traffic patterns
 ```
 
 ### Phase 2: Control (Months 4-6)
 
 ```
-☐ Conditional Access — block non-compliant devices
-☐ Network segmentation — isolate critical assets
-☐ Privileged Access Management (PAM) deployment
-☐ Application control policies
-☐ Data classification & DLP
+Conditional Access — block non-compliant devices
+Network segmentation — isolate critical assets
+Privileged Access Management (PAM) deployment
+Application control policies
+Data classification & DLP
 ```
 
 ### Phase 3: Automation (Months 7-9)
 
 ```
-☐ Automated remediation for non-compliant endpoints
-☐ Risk-based authentication flows
-☐ SOAR integration for incident response
-☐ Continuous compliance monitoring
-☐ Threat hunting workflows
+Automated remediation for non-compliant endpoints
+Risk-based authentication flows
+SOAR integration for incident response
+Continuous compliance monitoring
+Threat hunting workflows
 ```
 
 ### Phase 4: Optimization (Months 10-12)
 
 ```
-☐ Measure & improve trust scores accuracy
-☐ Reduce false positives in access decisions
-☐ Cross-platform policy unification
-☐ Advanced analytics & threat intelligence
-☐ Regular zero trust maturity assessments
+Measure & improve trust scores accuracy
+Reduce false positives in access decisions
+Cross-platform policy unification
+Advanced analytics & threat intelligence
+Regular zero trust maturity assessments
 ```
 
 ---

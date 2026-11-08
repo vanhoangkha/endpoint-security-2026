@@ -67,27 +67,27 @@
 
 ```
 People:
-☐ IR team defined with clear roles
-☐ On-call rotation established (24/7)
-☐ Contact list updated (include after-hours)
-☐ Training completed (annual minimum)
-☐ Tabletop exercises conducted (quarterly)
+IR team defined with clear roles
+On-call rotation established (24/7)
+Contact list updated (include after-hours)
+Training completed (annual minimum)
+Tabletop exercises conducted (quarterly)
 
 Process:
-☐ IR plan documented and approved
-☐ Playbooks created for top scenarios
-☐ Escalation matrix defined
-☐ Communication templates ready
-☐ Legal/regulatory requirements documented
-☐ Third-party IR retainer in place
+IR plan documented and approved
+Playbooks created for top scenarios
+Escalation matrix defined
+Communication templates ready
+Legal/regulatory requirements documented
+Third-party IR retainer in place
 
 Technology:
-☐ EDR/XDR deployed and monitored
-☐ Forensic toolkit ready (imaging, analysis)
-☐ Network isolation capability tested
-☐ Backup integrity verified
-☐ Out-of-band communication channel ready
-☐ Evidence storage (chain of custody)
+EDR/XDR deployed and monitored
+Forensic toolkit ready (imaging, analysis)
+Network isolation capability tested
+Backup integrity verified
+Out-of-band communication channel ready
+Evidence storage (chain of custody)
 ```
 
 ### 3.3 Tabletop Exercise Scenarios
@@ -369,10 +369,10 @@ COMMUNICATION:
   [ ] Customers: If data exposed, notify per policy
 
 DO NOT:
-  ✗ Pay ransom (unless authorized by legal + leadership)
-  ✗ Restore without verifying backup integrity
-  ✗ Reconnect endpoints without eradication confirmation
-  ✗ Communicate over compromised channels
+  Pay ransom (unless authorized by legal + leadership)
+  Restore without verifying backup integrity
+  Reconnect endpoints without eradication confirmation
+  Communicate over compromised channels
 ```
 
 ### 7.2 Playbook: Credential Compromise
@@ -577,16 +577,16 @@ PREVENTION IMPROVEMENTS:
 
 | # | Action | Impact | Effort |
 |---|--------|--------|--------|
-| 1 | Enable MFA everywhere | 🔴 Critical | Low |
-| 2 | Deploy EDR on all endpoints | 🔴 Critical | Medium |
-| 3 | Enable disk encryption | 🟠 High | Low |
-| 4 | Remove unnecessary local admin | 🟠 High | Medium |
-| 5 | Enable PowerShell logging | 🟠 High | Low |
-| 6 | Disable SMBv1 | 🟡 Medium | Low |
-| 7 | Configure auto-lock (5 min) | 🟡 Medium | Low |
-| 8 | Block known-bad IPs/domains | 🟡 Medium | Low |
-| 9 | Enable LSASS protection | 🟠 High | Low |
-| 10 | Verify backup integrity | 🔴 Critical | Low |
+| 1 | Enable MFA everywhere | Critical | Low |
+| 2 | Deploy EDR on all endpoints | Critical | Medium |
+| 3 | Enable disk encryption | High | Low |
+| 4 | Remove unnecessary local admin | High | Medium |
+| 5 | Enable PowerShell logging | High | Low |
+| 6 | Disable SMBv1 | Medium | Low |
+| 7 | Configure auto-lock (5 min) | Medium | Low |
+| 8 | Block known-bad IPs/domains | Medium | Low |
+| 9 | Enable LSASS protection | High | Low |
+| 10 | Verify backup integrity | Critical | Low |
 
 ---
 

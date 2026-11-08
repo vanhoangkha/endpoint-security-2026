@@ -188,7 +188,7 @@ XDR correlated view:
 | **MITRE ATT&CK** | Strong detection coverage | Strong autonomous blocking | Good prevention, improving detection |
 | **Unique Advantage** | Overwatch 24/7 human hunting | Storyline™ automated correlation | Native identity + email + cloud correlation |
 | **Weakness** | Higher cost | Complex setup for non-enterprise | Requires full Microsoft stack |
-| **AiTM Token Theft** | ❌ Not detected at endpoint | ❌ Not detected at endpoint | ❌ Not detected at endpoint |
+| **AiTM Token Theft** | Not detected at endpoint | Not detected at endpoint | Not detected at endpoint |
 | **Pricing** | Premium ($$$) | Mid-premium ($$) | Best value if already M365 E5 ($) |
 
 > "CrowdStrike wins on threat intelligence. SentinelOne wins on autonomous response. Microsoft wins on ecosystem integration and value." — Redress Compliance 2026
@@ -366,34 +366,34 @@ Query: file_events WHERE
 
 ```
 Pre-Deployment:
-☐ Inventory all endpoints (OS, version, role)
-☐ Test agent compatibility in lab environment
-☐ Define exclusion policies (performance-sensitive apps)
-☐ Plan rollout waves (pilot → dept → org-wide)
-☐ Configure network access for cloud console
+Inventory all endpoints (OS, version, role)
+Test agent compatibility in lab environment
+Define exclusion policies (performance-sensitive apps)
+Plan rollout waves (pilot → dept → org-wide)
+Configure network access for cloud console
 
 Deployment:
-☐ Deploy to 100% managed endpoints
-☐ Enable tamper protection immediately
-☐ Configure alert severity levels
-☐ Set up automated response policies (start conservative)
-☐ Integrate with SIEM/SOAR
+Deploy to 100% managed endpoints
+Enable tamper protection immediately
+Configure alert severity levels
+Set up automated response policies (start conservative)
+Integrate with SIEM/SOAR
 
 Post-Deployment:
-☐ Tune false positives (first 2-4 weeks)
-☐ Validate detection with purple team exercises
-☐ Train SOC analysts on investigation workflows
-☐ Establish threat hunting cadence
-☐ Monitor agent health & coverage gaps
+Tune false positives (first 2-4 weeks)
+Validate detection with purple team exercises
+Train SOC analysts on investigation workflows
+Establish threat hunting cadence
+Monitor agent health & coverage gaps
 ```
 
 ### 8.2 Common Mistakes to Avoid
 
-- ❌ Deploy trong detection-only mode vĩnh viễn (không bao giờ enable response)
-- ❌ Exclude quá nhiều paths/processes (tạo blind spots)
-- ❌ Ignore agent health alerts (agent offline = invisible endpoint)
-- ❌ Không integrate với identity systems (miss full attack context)
-- ❌ Không test automated response (surprise failures during real incident)
+- Deploy trong detection-only mode vĩnh viễn (không bao giờ enable response)
+- Exclude quá nhiều paths/processes (tạo blind spots)
+- Ignore agent health alerts (agent offline = invisible endpoint)
+- Không integrate với identity systems (miss full attack context)
+- Không test automated response (surprise failures during real incident)
 
 ---
 

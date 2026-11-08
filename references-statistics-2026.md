@@ -4,7 +4,7 @@
 
 ---
 
-## 📊 KEY STATISTICS AT A GLANCE
+## KEY STATISTICS AT A GLANCE
 
 ### Market Size
 | Metric | Value | Source |
@@ -77,7 +77,7 @@
 
 ---
 
-## 🔗 ALL SOURCES & REFERENCES
+## ALL SOURCES & REFERENCES
 
 ### Threat Intelligence Reports
 | Source | Title | URL |
@@ -241,7 +241,7 @@
 
 ---
 
-## 📁 SERIES FILES
+## SERIES FILES
 
 | # | File | Topic | Lines |
 |---|------|-------|-------|
